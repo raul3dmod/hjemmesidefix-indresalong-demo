@@ -305,7 +305,7 @@ h2::after {
   .service-grid { grid-template-columns: 1fr 1fr; gap: 1.1rem; }
 }
 @media (min-width: 900px) {
-  .service-grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .service-grid { grid-template-columns: repeat(5, 1fr); }
 }
 
 .service-card {
